@@ -1,2 +1,6 @@
 # BlackStone-Software-Agency
-Project that helped me pass Computer Science Degree
+Business Website
+No backend support
+
+Html Css Javascript
+
