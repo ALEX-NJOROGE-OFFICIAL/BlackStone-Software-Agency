@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Stone's Oscar & Alex Software Company</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+<section class="sub-header">
+
+    <nav>
+        <a href="index.html"><img src="images/logo1.PNG" alt=""></a>
+
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact </a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Products</h1>
+</section>
+
+ <!--products-->
+
+<section class="products">
+    <h1>Products We Offer</h1>
+    <p>We build custom websites, mobile applications, databases with Javascript on a timely basis. Other products include portfolios and templates.</p>
+
+
+<div class="row">
+    <div class="products-col">
+        <h3>Custom Websites</h3>
+        <p> A custom web design allows the project to closely mimic the branding of the organization.  The canvas is literally blank,<br> 
+            so the designer creating the new web presence can maintain a connection with the overall branding.</p>
+    </div>
+    <div class="products-col">
+        <h3>Mobile Applications</h3>
+        <p> A mobile application, most commonly referred to as an app, is a type of application software designed to run on a mobile device,<br>
+             such as a smartphone or tablet computer.</p>
+    </div>
+    <div class="products-col">
+        <h3>Databases</h3>
+        <p> A database is an organized collection of structured information, or data, typically stored electronically in a computer system.<br> 
+             A database is usually controlled by a database management system (DBMS).Most databases use structured query language (SQL) for writing and querying data.</p>
+    </div>
+</div>
+</section>
+
+<!--clients-->
+
+<section class="clients">
+    <h1>Our Clients</h1>
+    <p>Most of our clients include small business owners, online shops and schools</p>
+    <div class="row">
+        <div class="clients-col">
+                <img src="images/img6.PNG" alt="">
+                <h3>Small Businesses</h3>
+               <p>Small business owners also want to reach an online customer audience and hence pay for our services</p>
+            
+        </div>
+        <div class="clients-col">
+            <img src="images/img8.PNG" alt="">
+            <h3>Online shops</h3>
+           <p>Business owners that do not have the capital to start a brick and mortar location opt for our websites to sell their products</p>
+        
+    </div>
+    <div class="clients-col">
+        <img src="images/img7.PNG" alt="">
+        <h3>Schools</h3>
+       <p>Schools have reached out to us to create websites and databases for various purposes</p>
+    
+</div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+<!--footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>We are a small startup software company with the goal to corner the market by providing quality products with <br>
+    a competetive edge</p>
+
+    <div class="icon">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-linkedin" ></i>
+    </div>
+    <br>
+    <p>Made with   <i class="fa fa-heart-o" ></i>by Alex Njoroge Mwangi</p>
+</section>
+
+
+<!--javascript for toggle menu-->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+
+</body>
+</html>
